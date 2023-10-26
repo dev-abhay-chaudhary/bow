@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="CSS/form.css">
+</head>
+
+<body>
+    <form action="contact_form_submit.php" method="post">
+        <div class="main_container">
+            <a href="contact.html">
+                <p><img src="Image/left.png" alt=""></p>
+            </a>
+            <div class="container">
+                <h1>Send me Message</h1><br>
+                <p>If you have any queries, feel free to send us a message, we will try to answer as soon as possible.
+                </p><br><br>
+                <input type="text" name="name" id="" class="input_position" placeholder=" &nbsp;Name"><br>
+                <input type="number" name="phone_no" id="" class="input_position" placeholder=" &nbsp;Phone Number"><br>
+                <input type="email" name="email" id="" class="input_position" placeholder=" &nbsp;Email"><br>
+                <input type="text" name="subject" id="" class="input_position" placeholder=" &nbsp;Subject"><br>
+                <textarea name="message" id="" cols="60" rows="5" placeholder=" &nbsp;Write Your Message"></textarea> <br><br>
+                <button type="submit" value="submit" class="button" name="submit">Send message</button><br>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 10px;
+    padding: 7px 15px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 100px;
+    list-style-type: none;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.logo p {
+    margin-left: 100px;
+}
+
+.page_links {
+    width: 100%;
+    height: auto;
+}
+
+.navbar ul li a {
+    color: black;
+}
+
+.active {
+    border: .5px solid rgb(255, 255, 255);
+    transition-property: all;
+    transition-duration: .3s;
+
+}
+
+.active:hover {
+    border: none;
+    padding: 10px;
+    border: .5px solid black;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(24, 34, 45);
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_left {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    /* background-color: aliceblue; */
+}
+
+.f_mid {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(96, 145, 188); */
+}
+
+.f_mid p {
+    /* margin: 10px 0px 0px 20px; */
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.explore_link a {
+    text-decoration: none;
+    color: grey;
+}
+
+.explore_underline {
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 5px;
+    height: 1px;
+    background-color: rgb(253, 154, 21);
+}
+
+.f_right {
+    width: 100%;
+    height: auto;
+    margin-top: 130px;
+    line-height: 25px;
+    color: rgb(171, 171, 171);
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    /* background-color: #46a4a2; */
+}
+
+.email {
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.submit_button {
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: rgb(253, 154, 21);
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home_contact {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    z-index: 3000;
+    position: relative;
+    margin-bottom: -100px;
+    border-radius: 10px;
+    background-color: rgb(253, 154, 21);
+    display: flex;
+    justify-content: space-between;
+}
+
+.h_left {
+    width: 100%;
+    height: 200px;
+    /* background-color: aquamarine; */
+}
+
+.h_left p {
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.h_right {
+    width: 100%;
+    height: 200px;
+    /* background-color: aliceblue; */
+    text-align: center;
+}
+
+.follow {
+    color: grey;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fab {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: whitesmoke;
+    font-size: small;
+    padding-left: 20px;
+    transition-property: all;
+    transition-duration: .3s;
+}
+
+.fab:hover {
+    cursor: pointer;
+    transition: .3s;
+    color: rgb(253, 154, 21);
+}
+
+.h_right button {
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    margin-top: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(24, 34, 45);
+    color: white;
+    transition-property: all;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.h_right button:hover {
+    background-color: white;
+    color: rgb(24, 34, 45);
+    transition: .3s;
+}
+
+.underline {
+    margin: auto;
+    width: 300px;
+    height: .1px;
+    background-color: rgb(253, 154, 21);
+}
+
+.copy_right {
+    text-align: center;
+    color: grey;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(24, 34, 45);
+}
+
+.bow {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 154, 21);
+}
